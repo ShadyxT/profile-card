@@ -1,9 +1,7 @@
 body {
-    background: url(https://i.pinimg.com/236x/0d/fc/80/0dfc80655f8eda58e2f7b1fa3a44ce60.jpg) no-repeat center center fixed;
+    background: url (assets/város 2) no-repeat center center fixed;
     background-size: cover;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+   
 }
 * {
     padding: 0;
@@ -17,8 +15,23 @@ body {
     max-width: calc(100vw - 10px);
     padding-bottom: 3%;
     padding-top: 3%;
-
+    text-align: center;
 }
 .content {
     background-color: red;
+}
+body {
+     display:flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 30%;
+    height: 30%;
+    border-radius:50%;
+}
+
+h1 {
+    padding: 10px;
+    font-family:fantasy
 }
