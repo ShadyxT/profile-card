@@ -1,24 +1,33 @@
 body {
-    background: url (assets/város 2) no-repeat center center fixed;
+    background: url(assets/v%C3%A1ros%202.jpg) no-repeat center center fixed;
     background-size: cover;
    
 }
 * {
     padding: 0;
     margin: 0;
-    box-sizing: boder: box;
+    box-sizing: border-box;
     font-size: 100%;
 }
+profile-card {
+    padding: 20%;
+}
 .profile-card {
-    background-color: hsla(60, 100%, 50%, .4);
+    background-color: hsla(0, 0%, 100%, .5);
     width: 700px;
-    max-width: calc(100vw - 10px);
     padding-bottom: 3%;
     padding-top: 3%;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 .content {
     background-color: red;
+    width:700px;
+    height: 350px;
+    padding-top: 6%;
+    border-top: 2px solid hsla(0, 0%, 30%, .8);
 }
 body {
      display:flex;
@@ -34,4 +43,34 @@ img {
 h1 {
     padding: 10px;
     font-family:fantasy
+}
+
+h1 {
+    font-size: 20px;
+}
+
+
+
+
+
+ol {
+    padding-top: 10px;
+    padding-bottom: 10PX;
+    
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+ol {
+    list-style-type: none
+}
+
+li {
+    display: inline
+}
+
+p {
+    padding: 10%;
 }
