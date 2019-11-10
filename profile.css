@@ -78,7 +78,8 @@ p {
 }
 img:hover {
     transform: scale(1.1);
-    transition: all 1.0s ease-in-out;
+    transition: all 20.0s ease-in-out;
+    transform: rotate(200000deg)
 }
     
     i:hover {
