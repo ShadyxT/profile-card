@@ -22,13 +22,12 @@ profile-card {
     margin-bottom: 5.0rem;
     box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
     border-radius: 5%;
-    
 }
 .content {
     width:50.0rem;
     height: 20.0rem;
     padding-top: 6%;
-    border-top: 2.0rem solid hsla(0, 0%, 30%, .8);
+    border-top: 0.1rem solid hsla(0, 0%, 30%, .8);
 }
 body {
      display:flex;
